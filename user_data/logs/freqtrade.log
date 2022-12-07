@@ -162,3 +162,748 @@
 2022-12-04 19:17:16,123 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
 2022-12-04 19:18:16,184 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
 2022-12-04 19:19:16,234 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 20:10:54,228 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-12-04 20:10:54,229 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-12-04 20:10:54,230 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-12-04 20:10:54,230 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-12-04 20:10:54,231 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-12-04 20:10:54,232 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2022-12-04 20:10:54,247 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-12-04 20:10:54,249 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binanceus ...
+2022-12-04 20:10:54,250 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2022-12-04 20:10:54,268 - freqtrade.exchange.check_exchange - INFO - Exchange "binanceus" is officially supported by the Freqtrade development team.
+2022-12-04 20:10:54,269 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-12-04 20:10:54,298 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-12-04 20:10:54,299 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-12-04 20:10:54,300 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-12-04 20:10:54,301 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-12-04 20:10:54,301 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-12-04 20:10:54,302 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-12-04 20:10:54,303 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-12-04 20:10:54,304 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-12-04 20:10:54,305 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-12-04 20:10:54,306 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-12-04 20:10:54,306 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-12-04 20:10:54,307 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-12-04 20:10:54,307 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-12-04 20:10:54,308 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-12-04 20:10:54,309 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2022-12-04 20:10:54,309 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-12-04 20:10:54,310 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-12-04 20:10:54,310 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-12-04 20:10:54,311 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-12-04 20:10:54,311 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-12-04 20:10:54,312 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-12-04 20:10:54,313 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-12-04 20:10:54,313 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-12-04 20:10:54,314 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-12-04 20:10:54,314 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-12-04 20:10:54,315 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-12-04 20:10:54,315 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-12-04 20:10:54,316 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-12-04 20:10:54,317 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-12-04 20:10:54,323 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-12-04 20:10:54,324 - freqtrade.exchange.exchange - INFO - Using CCXT 2.1.96
+2022-12-04 20:10:54,357 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance US"
+2022-12-04 20:10:56,172 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-12-04 20:10:56,248 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 20:10:56,264 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2022-12-04 20:10:56,347 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2022-12-04 20:10:56,953 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2022-12-04 20:10:56,954 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - Local Rest Server listening to external connections
+2022-12-04 20:10:56,955 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - This is insecure please set to your loopback,e.g 127.0.0.1 in config.json
+2022-12-04 20:10:56,956 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2022-12-04 20:10:57,113 - uvicorn.error - INFO - Started server process [1]
+2022-12-04 20:10:57,114 - uvicorn.error - INFO - Waiting for application startup.
+2022-12-04 20:10:57,115 - uvicorn.error - INFO - Application startup complete.
+2022-12-04 20:10:57,116 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2022-12-04 20:10:57,126 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2022-12-04 20:10:57,515 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2022-12-04 20:10:57,520 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'DOGE/USDT', 'ETH/USDT', 'SHIB/USDT', 'ADA/USDT', 'DOT/USDT', 'SOL/USDT', 'FTM/USDT', 'ANT/USDT', 'AVAX/USDT', 'LTC/USDT', 'MATIC/USDT', 'VET/USDT', 'USDC/USDT', 'NEAR/USDT', 'LINK/USDT', 'ACH/USDT', 'UNI/USDT', 'APE/USDT', 'SPELL/USDT']
+2022-12-04 20:10:57,522 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-12-04 20:10:57,523 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-12-04 20:10:57,524 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-12-04 20:10:57,525 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-12-04 20:10:57,525 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-12-04 20:10:57,526 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-12-04 20:10:57,527 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-12-04 20:10:57,527 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-12-04 20:10:57,528 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-12-04 20:10:57,529 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-12-04 20:10:57,530 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-12-04 20:10:57,531 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binanceus`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-12-04 20:10:57,533 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2022-12-04 20:11:02,542 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 20:12:02,600 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 20:13:02,658 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 20:16:46,089 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-12-04 20:16:46,090 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-12-04 20:16:46,091 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-12-04 20:16:46,092 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-12-04 20:16:46,092 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-12-04 20:16:46,093 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2022-12-04 20:16:46,110 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-12-04 20:16:46,112 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binanceus ...
+2022-12-04 20:16:46,114 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2022-12-04 20:16:46,136 - freqtrade.exchange.check_exchange - INFO - Exchange "binanceus" is officially supported by the Freqtrade development team.
+2022-12-04 20:16:46,137 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-12-04 20:16:46,173 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-12-04 20:16:46,175 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-12-04 20:16:46,176 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-12-04 20:16:46,177 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-12-04 20:16:46,178 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-12-04 20:16:46,179 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-12-04 20:16:46,180 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-12-04 20:16:46,181 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-12-04 20:16:46,182 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-12-04 20:16:46,183 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-12-04 20:16:46,184 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-12-04 20:16:46,184 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-12-04 20:16:46,185 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-12-04 20:16:46,186 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-12-04 20:16:46,186 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2022-12-04 20:16:46,187 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-12-04 20:16:46,188 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-12-04 20:16:46,188 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-12-04 20:16:46,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-12-04 20:16:46,190 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-12-04 20:16:46,190 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-12-04 20:16:46,191 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-12-04 20:16:46,192 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-12-04 20:16:46,193 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-12-04 20:16:46,193 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-12-04 20:16:46,194 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-12-04 20:16:46,195 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-12-04 20:16:46,195 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-12-04 20:16:46,196 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-12-04 20:16:46,203 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-12-04 20:16:46,204 - freqtrade.exchange.exchange - INFO - Using CCXT 2.1.96
+2022-12-04 20:16:46,244 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance US"
+2022-12-04 20:16:47,372 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-12-04 20:16:47,432 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 20:16:47,444 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2022-12-04 20:16:47,522 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2022-12-04 20:16:48,129 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2022-12-04 20:16:48,130 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - Local Rest Server listening to external connections
+2022-12-04 20:16:48,131 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - This is insecure please set to your loopback,e.g 127.0.0.1 in config.json
+2022-12-04 20:16:48,132 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2022-12-04 20:16:48,262 - uvicorn.error - INFO - Started server process [1]
+2022-12-04 20:16:48,264 - uvicorn.error - INFO - Waiting for application startup.
+2022-12-04 20:16:48,264 - uvicorn.error - INFO - Application startup complete.
+2022-12-04 20:16:48,265 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2022-12-04 20:16:48,277 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2022-12-04 20:16:48,670 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2022-12-04 20:16:48,674 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'DOGE/USDT', 'ETH/USDT', 'SHIB/USDT', 'ADA/USDT', 'DOT/USDT', 'SOL/USDT', 'FTM/USDT', 'ANT/USDT', 'AVAX/USDT', 'LTC/USDT', 'MATIC/USDT', 'VET/USDT', 'USDC/USDT', 'NEAR/USDT', 'LINK/USDT', 'ACH/USDT', 'UNI/USDT', 'APE/USDT', 'BAND/USDT']
+2022-12-04 20:16:48,676 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-12-04 20:16:48,678 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-12-04 20:16:48,679 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-12-04 20:16:48,680 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-12-04 20:16:48,681 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-12-04 20:16:48,681 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-12-04 20:16:48,682 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-12-04 20:16:48,683 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-12-04 20:16:48,684 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-12-04 20:16:48,684 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-12-04 20:16:48,685 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-12-04 20:16:48,686 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binanceus`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-12-04 20:16:48,687 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2022-12-04 20:16:53,698 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:01:03,409 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-12-04 21:01:03,410 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-12-04 21:01:03,410 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-12-04 21:01:03,411 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-12-04 21:01:03,411 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-12-04 21:01:03,411 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 6 ...
+2022-12-04 21:01:03,425 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-12-04 21:01:03,425 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binanceus ...
+2022-12-04 21:01:03,427 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2022-12-04 21:01:03,443 - freqtrade.exchange.check_exchange - INFO - Exchange "binanceus" is officially supported by the Freqtrade development team.
+2022-12-04 21:01:03,444 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-12-04 21:01:03,477 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-12-04 21:01:03,478 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-12-04 21:01:03,479 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-12-04 21:01:03,479 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-12-04 21:01:03,479 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-12-04 21:01:03,480 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-12-04 21:01:03,480 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-12-04 21:01:03,480 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-12-04 21:01:03,481 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-12-04 21:01:03,481 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-12-04 21:01:03,481 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-12-04 21:01:03,481 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-12-04 21:01:03,482 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-12-04 21:01:03,482 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-12-04 21:01:03,482 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2022-12-04 21:01:03,483 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-12-04 21:01:03,483 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-12-04 21:01:03,483 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-12-04 21:01:03,484 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-12-04 21:01:03,484 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-12-04 21:01:03,484 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-12-04 21:01:03,485 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-12-04 21:01:03,485 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-12-04 21:01:03,485 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-12-04 21:01:03,485 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-12-04 21:01:03,486 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-12-04 21:01:03,486 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-12-04 21:01:03,486 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-12-04 21:01:03,487 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-12-04 21:01:03,492 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-12-04 21:01:03,493 - freqtrade.exchange.exchange - INFO - Using CCXT 2.1.96
+2022-12-04 21:01:03,525 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance US"
+2022-12-04 21:01:05,470 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2022-12-04 21:01:05,535 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 21:01:05,549 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2022-12-04 21:01:05,638 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2022-12-04 21:01:06,232 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2022-12-04 21:01:06,233 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - Local Rest Server listening to external connections
+2022-12-04 21:01:06,233 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - This is insecure please set to your loopback,e.g 127.0.0.1 in config.json
+2022-12-04 21:01:06,233 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2022-12-04 21:01:06,365 - uvicorn.error - INFO - Started server process [1]
+2022-12-04 21:01:06,365 - uvicorn.error - INFO - Waiting for application startup.
+2022-12-04 21:01:06,366 - uvicorn.error - INFO - Application startup complete.
+2022-12-04 21:01:06,367 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2022-12-04 21:01:06,377 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2022-12-04 21:01:06,786 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2022-12-04 21:01:06,791 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'DOGE/USDT', 'ETH/USDT', 'SHIB/USDT', 'ADA/USDT', 'DOT/USDT', 'SOL/USDT', 'FTM/USDT', 'ANT/USDT', 'LTC/USDT', 'AVAX/USDT', 'MATIC/USDT', 'VET/USDT', 'USDC/USDT', 'UNI/USDT', 'BAND/USDT', 'NEAR/USDT', 'LINK/USDT', 'ACH/USDT', 'APE/USDT']
+2022-12-04 21:01:06,791 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-12-04 21:01:06,792 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-12-04 21:01:06,793 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-12-04 21:01:06,793 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-12-04 21:01:06,794 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-12-04 21:01:06,794 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-12-04 21:01:06,794 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-12-04 21:01:06,795 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-12-04 21:01:06,796 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-12-04 21:01:06,796 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-12-04 21:01:06,797 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-12-04 21:01:06,797 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binanceus`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-12-04 21:01:06,798 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2022-12-04 21:01:11,806 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:02:11,861 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:03:11,920 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:04:11,978 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:05:16,016 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:06:16,077 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:07:16,129 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:08:16,192 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:09:16,245 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:10:21,022 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:11:21,076 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:12:21,128 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:13:21,188 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:14:21,243 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:15:26,021 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:16:26,079 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:17:26,134 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:18:26,190 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:19:26,242 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:20:31,032 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:21:31,088 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:22:31,142 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:23:31,196 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:24:31,259 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:25:36,033 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:26:36,091 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:27:36,151 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:28:36,209 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:29:36,263 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:30:41,039 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:31:11,783 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'DOGE/USDT', 'ETH/USDT', 'SHIB/USDT', 'ADA/USDT', 'DOT/USDT', 'SOL/USDT', 'FTM/USDT', 'ANT/USDT', 'LTC/USDT', 'AVAX/USDT', 'MATIC/USDT', 'VET/USDT', 'UNI/USDT', 'NEAR/USDT', 'BAND/USDT', 'USDC/USDT', 'ACH/USDT', 'SPELL/USDT', 'APE/USDT']
+2022-12-04 21:31:41,096 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:32:41,150 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:33:41,202 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:34:41,256 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:35:46,040 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:36:46,093 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:37:46,145 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:38:46,202 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:39:46,259 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:40:51,048 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:41:51,097 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:42:51,161 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:43:51,218 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:44:51,278 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:45:56,052 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:46:56,109 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:47:56,162 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:48:56,209 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:49:56,263 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:51:01,052 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:52:01,105 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:53:01,163 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:54:01,218 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:55:06,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:56:06,057 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:57:06,115 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:58:06,166 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 21:59:06,219 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:00:11,011 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:01:11,063 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:01:16,474 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2022-12-04 22:01:16,479 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'DOGE/USDT', 'ETH/USDT', 'SHIB/USDT', 'ADA/USDT', 'DOT/USDT', 'SOL/USDT', 'FTM/USDT', 'ANT/USDT', 'LTC/USDT', 'AVAX/USDT', 'MATIC/USDT', 'VET/USDT', 'UNI/USDT', 'BAND/USDT', 'APE/USDT', 'NEAR/USDT', 'ACH/USDT', 'SPELL/USDT', 'LINK/USDT']
+2022-12-04 22:02:11,114 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:03:11,174 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:04:11,225 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:05:16,016 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:06:16,055 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:07:16,113 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:08:16,168 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:09:16,225 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:10:21,019 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:11:21,077 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:12:21,091 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:13:21,152 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:14:21,207 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:15:26,027 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:16:26,084 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:17:26,122 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:18:26,185 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:19:26,242 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:20:31,031 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:21:31,091 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:22:31,151 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:23:31,208 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:24:31,268 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:25:36,033 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:26:36,096 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:27:36,158 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:28:36,204 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:29:36,262 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:30:04,620 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 22:30:05,494 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for LTC/USDT with stake_amount: 100 ...
+2022-12-04 22:30:05,740 - freqtrade.freqtradebot - INFO - Order #dry_run_buy_1670193005.494832 was created for LTC/USDT and status is open.
+2022-12-04 22:30:05,762 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 22:30:05,763 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binanceus', 'pair': 'LTC/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 76.7, 'open_rate': 76.7, 'order_type': 'limit', 'stake_amount': 100.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 1.30378, 'open_date': datetime.datetime(2022, 12, 4, 22, 30, 5, 740810), 'current_rate': 76.7, 'sub_trade': False}
+2022-12-04 22:30:06,674 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:30:11,314 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:30:16,323 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:30:21,333 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:30:26,335 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:30:31,331 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:30:36,341 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:30:41,037 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:30:41,339 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:30:46,346 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:30:51,371 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:30:56,355 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:01,359 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:06,368 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:11,370 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:16,375 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:21,519 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'DOGE/USDT', 'ETH/USDT', 'SHIB/USDT', 'DOT/USDT', 'ADA/USDT', 'SOL/USDT', 'FTM/USDT', 'ANT/USDT', 'LTC/USDT', 'AVAX/USDT', 'MATIC/USDT', 'VET/USDT', 'UNI/USDT', 'NEAR/USDT', 'BAND/USDT', 'SPELL/USDT', 'APE/USDT', 'ACH/USDT', 'LINK/USDT']
+2022-12-04 22:31:21,823 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:26,387 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:31,387 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:36,391 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:41,094 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:31:41,402 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:46,404 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:51,408 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:31:56,421 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:01,420 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:06,421 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:11,424 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:16,426 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:21,442 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:26,436 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:31,444 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:36,449 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:41,147 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:32:41,454 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:46,454 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:51,462 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:32:56,467 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:01,472 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:06,484 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:11,479 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:16,487 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:21,483 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:26,492 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:31,492 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:36,499 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:41,198 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:33:41,510 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:46,502 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:51,507 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:33:56,513 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:01,516 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:06,520 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:11,522 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:16,531 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:21,530 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:26,533 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:31,534 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:36,539 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:41,240 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:34:41,543 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:46,546 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:51,555 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:34:56,562 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:04,464 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:06,310 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:11,313 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:16,318 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:21,325 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:26,330 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:31,332 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:36,335 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:41,341 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:46,042 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:35:46,348 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:51,361 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:35:56,358 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:01,359 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:06,365 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:11,367 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:16,374 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:21,380 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:26,394 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:31,390 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:36,403 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:41,409 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:46,095 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:36:46,407 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:51,403 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:36:56,408 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:01,413 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:06,418 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:11,422 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:16,428 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:21,433 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:26,438 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:31,449 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:36,450 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:41,469 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:46,147 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:37:46,450 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:51,455 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:37:56,457 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:01,463 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:06,467 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:11,473 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:16,477 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:21,482 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:26,487 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:31,491 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:36,500 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:41,499 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:46,200 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:38:46,511 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:51,509 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:38:56,514 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:01,517 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:06,531 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:11,529 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:16,532 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:21,535 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:26,540 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:31,543 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:36,549 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:41,557 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:46,251 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:39:46,554 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:51,558 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:39:56,576 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:40:04,400 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:40:06,304 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05)
+2022-12-04 22:40:06,804 - freqtrade.freqtradebot - INFO - Buy order cancelled due to timeout for Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05).
+2022-12-04 22:40:06,804 - freqtrade.freqtradebot - INFO - Buy order fully cancelled. Removing Trade(id=1, pair=LTC/USDT, amount=1.30378096, is_short=False, leverage=1.0, open_rate=76.70000000, open_since=2022-12-04 22:30:05) from database.
+2022-12-04 22:40:06,815 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 22:40:06,816 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry_cancel, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binanceus', 'pair': 'LTC/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 76.7, 'order_type': 'limit', 'stake_amount': 100.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 1.303780964797914, 'open_date': datetime.datetime(2022, 12, 4, 22, 30, 5, 740810), 'current_rate': 76.68, 'reason': 'cancelled due to timeout, fully cancelled', 'sub_trade': False}
+2022-12-04 22:40:51,044 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:41:51,100 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:42:51,152 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:43:51,209 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:44:51,268 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:45:56,053 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:46:56,114 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:47:56,168 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:48:56,230 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:49:56,290 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:51:01,053 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:52:01,112 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:53:01,170 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:54:01,211 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:55:06,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:56:06,067 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:57:06,126 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:58:06,182 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 22:59:06,242 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:00:11,011 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:01:11,066 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:01:26,489 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2022-12-04 23:01:26,494 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'DOGE/USDT', 'ETH/USDT', 'SHIB/USDT', 'DOT/USDT', 'ADA/USDT', 'SOL/USDT', 'ANT/USDT', 'FTM/USDT', 'LTC/USDT', 'AVAX/USDT', 'MATIC/USDT', 'VET/USDT', 'APE/USDT', 'UNI/USDT', 'SPELL/USDT', 'NEAR/USDT', 'ACH/USDT', 'BUSD/USDT', 'LINK/USDT']
+2022-12-04 23:02:11,124 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:03:11,185 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:04:11,241 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:05:04,156 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 23:05:04,753 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for ADA/USDT with stake_amount: 100 ...
+2022-12-04 23:05:05,354 - freqtrade.freqtradebot - INFO - Order #dry_run_buy_1670195104.754089 was created for ADA/USDT and status is open.
+2022-12-04 23:05:05,368 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 23:05:05,369 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binanceus', 'pair': 'ADA/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 0.32225, 'open_rate': 0.32225, 'order_type': 'limit', 'stake_amount': 100.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 310.3, 'open_date': datetime.datetime(2022, 12, 4, 23, 5, 5, 354744), 'current_rate': 0.32224, 'sub_trade': False}
+2022-12-04 23:05:05,401 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 23:05:05,640 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for UNI/USDT with stake_amount: 100 ...
+2022-12-04 23:05:05,872 - freqtrade.freqtradebot - INFO - Order #dry_run_buy_1670195105.641379 was created for UNI/USDT and status is open.
+2022-12-04 23:05:05,883 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 23:05:05,884 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 2, 'type': entry, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binanceus', 'pair': 'UNI/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 6.2339, 'open_rate': 6.2339, 'order_type': 'limit', 'stake_amount': 100.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 16.04, 'open_date': datetime.datetime(2022, 12, 4, 23, 5, 5, 873230), 'current_rate': 6.2339, 'sub_trade': False}
+2022-12-04 23:05:06,301 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:06,547 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:11,503 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:11,751 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:16,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:05:16,307 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:16,554 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:21,311 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:21,556 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:26,321 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:26,569 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:31,341 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:31,589 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:36,323 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:36,585 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:41,323 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:41,568 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:46,327 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:46,572 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:51,332 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:51,578 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:56,340 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:05:56,585 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:01,340 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:01,587 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:06,345 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:06,594 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:11,356 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:11,603 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:16,064 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:06:16,358 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:16,606 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:21,363 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:21,607 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:26,370 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:26,622 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:31,367 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:31,615 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:36,373 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:36,619 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:41,372 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:41,618 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:46,379 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:46,625 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:51,376 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:51,629 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:56,382 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:06:56,632 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:01,387 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:01,643 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:06,390 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:06,641 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:11,402 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:11,652 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:16,105 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:07:16,397 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:16,646 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:21,409 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:21,662 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:26,416 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:26,670 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:31,411 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:31,660 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:36,417 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:36,679 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:41,423 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:41,676 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:46,422 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:46,675 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:51,423 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:51,673 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:56,426 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:07:56,676 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:01,438 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:01,693 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:06,441 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:06,698 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:11,450 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:11,703 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:16,154 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:08:16,454 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:16,709 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:21,450 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:21,696 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:26,458 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:26,708 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:31,464 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:31,715 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:36,470 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:36,722 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:41,480 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:41,728 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:46,480 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:46,729 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:51,482 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:51,734 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:56,486 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:08:56,734 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:01,489 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:01,738 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:06,501 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:06,748 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:11,494 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:11,743 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:16,207 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:09:16,498 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:16,744 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:21,505 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:21,754 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:26,507 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:26,757 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:31,513 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:31,765 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:36,516 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:36,771 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:41,532 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:41,782 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:46,526 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:46,774 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:51,535 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:51,782 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:56,532 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:09:56,778 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:04,369 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:04,855 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:06,298 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:06,776 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:11,306 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:11,786 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:16,314 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:16,798 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:21,017 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:10:21,314 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:21,801 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:26,312 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:26,794 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:31,324 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:31,801 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:36,320 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:36,800 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:41,331 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:41,811 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:46,324 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:46,804 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:51,341 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:51,821 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:56,335 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:10:56,818 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:01,339 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:01,822 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:06,340 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:06,820 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:11,346 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:11,832 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:16,353 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:16,834 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:21,062 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:11:21,354 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:21,836 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:26,357 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:26,842 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:31,367 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:31,854 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:36,367 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:36,851 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:41,370 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:41,850 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:46,373 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:46,854 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:51,377 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:51,860 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:56,379 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:11:56,863 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:01,386 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:01,871 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:06,406 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:06,888 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:11,391 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:11,873 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:16,396 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:16,881 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:21,108 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:12:21,402 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:21,885 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:26,418 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:26,902 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:31,411 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:31,890 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:36,415 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:36,894 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:41,420 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:41,900 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:46,427 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:46,909 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:51,432 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:51,916 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:56,430 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:12:56,908 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:13:01,434 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:13:01,915 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:13:06,435 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:13:06,919 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:13:11,441 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:13:11,924 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:13:11,933 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=2, pair=UNI/USDT, amount=16.04132245, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05) [buy]: 0.099991756 USDT - rate: 0.001
+2022-12-04 23:13:11,934 - freqtrade.persistence.trade_model - INFO - Updating trade (id=2) ...
+2022-12-04 23:13:11,934 - freqtrade.persistence.trade_model - INFO - LIMIT_BUY has been fulfilled for Trade(id=2, pair=UNI/USDT, amount=16.04000000, is_short=False, leverage=1.0, open_rate=6.23390000, open_since=2022-12-04 23:05:05).
+2022-12-04 23:13:11,945 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 23:13:11,953 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 2, 'type': entry_fill, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binanceus', 'pair': 'UNI/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 6.2339, 'open_rate': 6.2339, 'order_type': None, 'stake_amount': 99.991756, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 16.04, 'open_date': datetime.datetime(2022, 12, 4, 23, 5, 5, 873230), 'current_rate': 6.2271, 'sub_trade': False}
+2022-12-04 23:13:16,449 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05)
+2022-12-04 23:13:16,458 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=1, pair=ADA/USDT, amount=310.32770606, is_short=False, leverage=1.0, open_rate=0.32224000, open_since=2022-12-04 23:05:05) [buy]: 0.099994175 USDT - rate: 0.001
+2022-12-04 23:13:16,458 - freqtrade.persistence.trade_model - INFO - Updating trade (id=1) ...
+2022-12-04 23:13:16,459 - freqtrade.persistence.trade_model - INFO - LIMIT_BUY has been fulfilled for Trade(id=1, pair=ADA/USDT, amount=310.30000000, is_short=False, leverage=1.0, open_rate=0.32225000, open_since=2022-12-04 23:05:05).
+2022-12-04 23:13:16,469 - freqtrade.wallets - INFO - Wallets synced.
+2022-12-04 23:13:16,476 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry_fill, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Binanceus', 'pair': 'ADA/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 0.32225, 'open_rate': 0.32225, 'order_type': None, 'stake_amount': 99.994175, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 310.3, 'open_date': datetime.datetime(2022, 12, 4, 23, 5, 5, 354744), 'current_rate': 0.32225, 'sub_trade': False}
+2022-12-04 23:13:21,156 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:14:21,207 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:15:26,022 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:16:26,074 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:17:26,120 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:18:26,173 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:19:26,228 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:20:31,028 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:21:31,081 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:22:31,134 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:23:31,183 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:24:31,237 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:25:36,031 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:26:36,088 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:27:36,140 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:28:36,192 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:29:36,249 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:30:41,037 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:31:31,536 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['BTC/USDT', 'DOGE/USDT', 'ETH/USDT', 'SHIB/USDT', 'DOT/USDT', 'ADA/USDT', 'SOL/USDT', 'ANT/USDT', 'LTC/USDT', 'MATIC/USDT', 'AVAX/USDT', 'FTM/USDT', 'SPELL/USDT', 'VET/USDT', 'APE/USDT', 'UNI/USDT', 'ACH/USDT', 'NEAR/USDT', 'LINK/USDT', 'BUSD/USDT']
+2022-12-04 23:31:41,092 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:32:41,139 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:33:41,188 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:34:41,238 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:35:46,035 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:36:46,085 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:37:46,135 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:38:46,184 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:39:46,235 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:40:51,042 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:41:51,091 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:42:51,141 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:43:51,196 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:44:51,257 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:45:56,048 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:46:56,100 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:47:56,157 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:48:56,206 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:49:56,260 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:51:01,053 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:52:01,104 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:53:01,159 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:54:01,211 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:55:06,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:56:06,061 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
+2022-12-04 23:57:06,107 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.11', state='RUNNING'
