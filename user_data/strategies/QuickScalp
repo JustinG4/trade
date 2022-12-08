@@ -11,7 +11,7 @@ import talib.abstract as ta
 import freqtrade.vendor.qtpylib.indicators as qtpylib
 
 
-class ReinforcedSmoothScalp(IStrategy):
+class QuickScalp(IStrategy):
     """
         this strategy is based around the idea of generating a lot of potentatils buys and make tiny profits on each trade
 
