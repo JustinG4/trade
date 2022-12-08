@@ -22,7 +22,7 @@ class ReinforcedSmoothScalp(IStrategy):
     # Optimal timeframe for the strategy
     # the shorter the better
     timeframe = '1m'
-    timeframe_mins = timeframe_to_minutes(timeframe)
+    timeframe_mins = timeframe_to_minutes(self.timeframe)
     
     # Minimal ROI designed for the strategy.
     # This attribute will be overridden if the config file contains "minimal_roi"
