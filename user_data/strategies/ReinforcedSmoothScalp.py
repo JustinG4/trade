@@ -19,23 +19,22 @@ class ReinforcedSmoothScalp(IStrategy):
     """
 
     INTERFACE_VERSION: int = 3
-    # Optimal timeframe for the strategy
-    # the shorter the better
-    timeframe = '1m'
-    timeframe_mins = timeframe_to_minutes(self.timeframe)
-    
     # Minimal ROI designed for the strategy.
     # This attribute will be overridden if the config file contains "minimal_roi"
     minimal_roi = {
-        "0": 0.02,
-        str(timeframe_mins * 3)): 0.02,  # 2% after 3 candles
-        str(timeframe_mins * 6)): 0.01,  # 1% After 6 candles
+        "0": 0.05,
+        "3": 0.02,  # 2% after 3 candles
+        "6": 0.01,  # 1% After 6 candles
     }
     # Optimal stoploss designed for the strategy
     # This attribute will be overridden if the config file contains "stoploss"
     # should not be below 3% loss
 
     stoploss = -0.1
+    
+    # Optimal timeframe for the strategy
+    # the shorter the better
+    timeframe = '1m'
 
     # resample factor to establish our general trend. Basically don't buy if a trend is not given
     resample_factor = 5
