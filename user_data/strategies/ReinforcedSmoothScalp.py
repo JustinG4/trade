@@ -52,11 +52,11 @@ class ReinforcedSmoothScalp(IStrategy):
     sell_fastk = IntParameter(50, 100, default=70, space='sell')
     sell_mfi = IntParameter(75, 100, default=45, space='sell')
 
-    sell_adx_enabled = BooleanParameter(default=False, space='sell')
+    sell_adx_enabled = BooleanParameter(default=True, space='sell')
     sell_cci_enabled = BooleanParameter(default=True, space='sell')
     sell_fastd_enabled = BooleanParameter(default=True, space='sell')
     sell_fastk_enabled = BooleanParameter(default=True, space='sell')
-    sell_mfi_enabled = BooleanParameter(default=False, space='sell')
+    sell_mfi_enabled = BooleanParameter(default=True, space='sell')
 
     def populate_indicators(self, dataframe: DataFrame, metadata: dict) -> DataFrame:
         tf_res = timeframe_to_minutes(self.timeframe) * 5
