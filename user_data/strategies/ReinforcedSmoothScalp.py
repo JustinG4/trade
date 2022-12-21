@@ -47,10 +47,10 @@ class ReinforcedSmoothScalp(IStrategy):
     buy_mfi_enabled = BooleanParameter(default=True, space='buy')
 
     sell_adx = IntParameter(50, 100, default=53, space='sell')
-    sell_cci = IntParameter(100, 200, default=183, space='sell')
-    sell_fastd = IntParameter(50, 100, default=79, space='sell')
+    sell_cci = IntParameter(100, 200, default=120, space='sell')
+    sell_fastd = IntParameter(50, 100, default=59, space='sell')
     sell_fastk = IntParameter(50, 100, default=70, space='sell')
-    sell_mfi = IntParameter(75, 100, default=92, space='sell')
+    sell_mfi = IntParameter(75, 100, default=45, space='sell')
 
     sell_adx_enabled = BooleanParameter(default=False, space='sell')
     sell_cci_enabled = BooleanParameter(default=True, space='sell')
